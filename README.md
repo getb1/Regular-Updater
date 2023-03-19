@@ -9,6 +9,6 @@ A simple tool which scrapes weather and news data and displays them
 
 # Insatll
 ```
-curl https://github.com/getb1/Regular-Updater/blob/main/install.sh | bash
+curl https://raw.githubusercontent.com/getb1/Regular-Updater/main/install.sh | bash
 ```
 Then follow the instructions on screen
