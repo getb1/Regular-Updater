@@ -1,5 +1,6 @@
 from setuptools import setup
 from jsonFunctions import write
+import os
 setup(
     name='Infogetter',
     version='0.0.2',
@@ -17,7 +18,7 @@ import json
 
 looping = True
 while looping:
-
+    os.system('clear')
     OpenWeatherApi = input("Please enter your open weather API key")
     Town = input("Please enter the town you are using")
     rssLink = input("Please enter your rss news feed link")
